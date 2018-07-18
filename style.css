@@ -7,4 +7,96 @@
 html,
 body {
     height: 100%;
+    font-family: Arial;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    width: 1580px;
+    margin: 0 auto;
+}
+
+header{
+    height: 688px;
+    background-color: #f6f2f2;
+}
+
+.head_menu{
+    margin: 0 auto;
+    width: 1250px;
+    text-align: center;
+    background-color: black;
+}
+
+.head_menu ul{
+    list-style-type: none;
+    display: inline-flex;
+    height: 90px;
+}
+
+.head_menu a{
+    display: flex;
+    height: 90px;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.head_menu a:hover{
+    background-color: red;
+}
+
+.head_menu a:active{
+    background-color: white;
+    color: red;
+}
+
+.head_info{
+    width: 1250px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.left_h{
+    float: left;
+    width: 40%;
+}
+
+.left_h h1{
+    font-size: 3em;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+}
+
+.left_h p{
+    line-height: 1.5em;
+    padding-bottom: 50px;
+}
+
+.player{
+    float: right;
+    width: 551px;
+    height: 356px;
+    box-shadow: 0 0 25px 10px #c1c1c1;
+    background-color: #cfcfcf;
+}
+
+.player video{
+    width: 551px;
+    height: 356px;
+}
+
+input[type=button]{
+    display: block;
+    width: 277px;
+    height: 55px;
+    font-size: 1em;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    border: none;
 }
